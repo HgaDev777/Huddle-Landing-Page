@@ -1,0 +1,22 @@
+// Sass Variables
+$headingFont: 'Poppins',
+sans-serif;
+$bodyFont: 'Open Sans',
+sans-serif;
+$normal: 400;
+$bold: 700;
+$mainFontColor: #fff;
+
+html {
+  width: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: $bodyFont;
+  color: #fff;
+  background: image("/../images/bg-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
