@@ -15,8 +15,15 @@ body {
   box-sizing: border-box;
   font-family: $bodyFont;
   color: #fff;
-  background: image("/../images/bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(../images/bg-desktop.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-style: italic;
 }
