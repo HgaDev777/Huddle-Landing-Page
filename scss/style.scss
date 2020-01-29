@@ -69,13 +69,31 @@ body {
 .main__intro {
   font-size: 1.3em;
   font-weight: 400;
-  width: 67%;
+  width: 85%;
 }
 
 .main__button {
   color: hsl(257, 40%, 49%);
-  width: 20%;
+  width: 34%;
+  height: 12%;
+  border-radius: 45px;
+  font-size: 1.3em;
+  font-weight: 300;
+}
 
+.button__link {
+  text-decoration: none;
+  font-family: $headingFont;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.link {
+  list-style-type: none;
 }
 
 .footer a {
