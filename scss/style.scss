@@ -1,6 +1,8 @@
 // Sass Variables
-$headingFont: "Poppins", sans-serif;
-$bodyFont: "Open Sans", sans-serif;
+$headingFont: "Poppins",
+sans-serif;
+$bodyFont: "Open Sans",
+sans-serif;
 $normal: 400;
 $bold: 600;
 $mainFontColor: #fff;
@@ -17,6 +19,7 @@ body {
   max-height: 800px;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 
   @media only screen and (max-width: 1400px) {
     margin: 0;
@@ -110,6 +113,7 @@ body {
 
       margin: 0.5em auto;
     }
+
     width: 100%;
     margin: 0 auto;
   }
@@ -151,9 +155,13 @@ body {
 
 .social__links {
   box-sizing: border-box;
+
   .links {
     position: relative;
     left: 23em;
+    top: 10em;
+    margin: 0;
+    padding: 0;
 
     .link {
       list-style-type: none;
