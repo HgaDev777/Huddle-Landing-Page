@@ -21,7 +21,7 @@ body {
   padding: 0;
   overflow-x: hidden;
 
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 375px) {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -33,25 +33,28 @@ body {
   display: flex;
   flex-direction: column;
 
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 375px) {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    // width: 100vw;
-    margin: 2em auto;
   }
 }
 
 .header {
   width: 100%;
-  margin-left: 0;
+  display: flex;
 }
 
 .logo {
   position: relative;
-  left: -11px;
+  left: -7px;
   width: 200px;
   margin-bottom: 6em;
+
+  @media only screen and (max-width: 375px) {
+    position: relative;
+    width: 50%;
+    margin: 0;
+  }
 }
 
 .main {
@@ -63,27 +66,26 @@ body {
   flex-direction: row;
   justify-content: space-between;
 
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 375px) {
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin: 2em auto;
+    // margin: 2em auto;
   }
 }
 
 .main-image {
-  width: 50%;
-  // margin: 3em auto;
+  // width: 50%;
 
   .tablet_cell_img {
     width: 100%;
     position: relative;
-    left: -7px;
+    left: -2px;
   }
 
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 375px) {
     width: 100%;
-    margin: 3em auto;
+    // margin: 3em auto;
   }
 }
 
@@ -97,10 +99,10 @@ body {
   left: -15px;
   margin-top: 4em;
 
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 375px) {
     .main__header {
-      width: 35%;
-      margin: 0.5em auto;
+      width: 60%;
+      margin: 2em auto;
     }
 
     .main__intro {
@@ -140,8 +142,9 @@ body {
   font-size: 1.3em;
   font-weight: 300;
   outline: none;
+  box-shadow: 0 10px 6px -6px #000;
 
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 375px) {
     width: 20%;
     padding: 1rem;
     margin: 0.5em auto;
@@ -188,7 +191,7 @@ body {
   position: relative;
   bottom: -49px;
 
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 375px) {
     width: 20%;
     padding: 1rem;
     margin: 0.5em auto;
@@ -198,7 +201,7 @@ body {
 .attribution {
   align-self: center;
 
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 375px) {
     order: 2;
     // margin: 1em auto;
   }
